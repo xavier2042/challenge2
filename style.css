@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+.clear{
+  clear:both;
+}
+body{
+  background-image: url(images/bg.png);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size:13px;
+}
+.cadre{
+  width: 994px;
+  background-color: white;
+  margin:0 auto;
+  margin-top: 25px;
+  padding:50px 47px 50px 47px;
+  box-shadow: 0px 0px 4px 0px #656565;
+}
+h1{
+  font-family: "Terminal Dosis", sans-serif;
+  font-size: 52px;
+  float: left;
+  color: #656565;
+  font-weight: lighter;
+}
+.sous-titre{
+  font-weight: lighter;
+  color:#656565;
+  font-size: 16px;
+}
+main{
+}
+.bar{
+  height: 59px;
+  background-color: #F4F4F4;
+  margin: 25px auto;
+  border-top: solid 1px #BFBFBF;
+  border-bottom: solid 1px #BFBFBF;
+}
+.bar-menu li{
+  list-style: none;
+  float: left;
+  width: 150px;
+}
+.bar-menu {
+  margin-top:18px;
+  text-align: center;
+}
+.bar-menu li a{
+  font-weight: bolder;
+  text-decoration: none;
+  color: #656565;
+}
+.loop{
+  width: 33px;
+  height: 22px;
+  float: right;
+  background-color: #F4F4F4;
+  border-bottom: solid 1px #BFBFBF;
+}
+.loop img{
+}
+.img-art{
+  width: 900px;
+  height: 508px;
+  margin-bottom: 38px;
+}
+.titre-text{
+  text-align: center;
+  margin-bottom: 30px
+}
+.titre-text h2{
+  margin-bottom: 22px;
+  color:#656565;
+  font-weight: lighter;
+  font-size: 28px;
+}
+.titre-text a{
+  text-decoration: none;
+  color:#656565;
+}
+.text p{
+  margin-bottom: 30px;
+}
+.bandeau-bas{
+  height: 40px;
+  background-color: #F4F4F4;
+  margin-top: 25px;
+  border-top: solid 1px #BFBFBF;
+  border-bottom: solid 1px #BFBFBF;
+}
+.older{
+  height: 75px;
+  text-align: center;
+  padding-top:40px;
+}
+footer{
+  height: 235px;
+  background-color: #F4F4F4;
+  margin: 25px auto;
+  border-top: solid 1px #BFBFBF;
+  border-bottom: solid 1px #BFBFBF;
+}
+.list-fin li{
+  list-style: none;
+}
+.list-fin li a{
+  text-decoration: none;
+  color: black;
+}
+.list-fin{
+  margin:10px;
+  float: left;
+  width: 22%
+}
+.list-fin h4{
+  margin-bottom: 10px;
+}
